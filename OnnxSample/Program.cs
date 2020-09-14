@@ -52,7 +52,8 @@ namespace OnnxSample
             };
 
             // Вычисляем предсказание нейросетью
-            using var session = new InferenceSession("shufflenet-v2-10.onnx");       
+            using var session = new InferenceSession("shufflenet-v2-10.onnx");  
+            Console.WriteLine("Predicting contents of image...");     
             using IDisposableReadOnlyCollection<DisposableNamedOnnxValue> results = session.Run(inputs);
 
             // Получаем 1000 выходов и считаем для них softmax
