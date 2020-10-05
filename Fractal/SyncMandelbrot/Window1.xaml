@@ -1,0 +1,8 @@
+﻿<Window x:Class="SyncMandelbrot.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Mandelbrot Set" Height="300" Width="300"
+    SizeChanged="OnSizeChanged">
+    <Image Name="contents" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+           Stretch="Uniform"/>
+</Window>
