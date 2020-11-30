@@ -1,6 +1,6 @@
 using System;
 
-namespace LibraryServer
+namespace LibraryContracts
 {
     public class Book
     {
