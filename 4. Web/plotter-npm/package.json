@@ -1,0 +1,21 @@
+{
+  "name": "plotter",
+  "version": "1.0.0",
+  "description": "Plotter sample",
+  "main": "plotter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "mathjs": "^6.2.5",
+    "plotly": "^1.0.6",
+    "plotly.js": "^1.58.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
