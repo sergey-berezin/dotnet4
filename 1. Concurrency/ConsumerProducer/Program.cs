@@ -27,11 +27,14 @@ namespace readwrite
         {
             while (true)
             {
-                string s = Console.In.ReadLine();
-                if (s == "")
-                    break;
-                lock(queue) // Занимает целое ядро 
+                lock(queue) // Не занимает целое ядро 
+                {
+                    string s = Console.In.ReadLine();
+                    if (s == "")
+                        break;
+
                     queue.Enqueue(s);
+                }
             }
         }
 
