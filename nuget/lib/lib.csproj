@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Sergey.ArgMax</PackageId>
+    <Version>0.1.2209.121</Version>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="flee" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+     <Content Include="hello.txt"/>
+  </ItemGroup>
+
+</Project>
