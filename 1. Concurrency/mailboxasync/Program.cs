@@ -9,40 +9,65 @@ namespace mailbox
     {
         static SemaphoreSlim hasMessages = new SemaphoreSlim(0,1);
         static SemaphoreSlim boxLock = new SemaphoreSlim(1,1);
-        static Queue<string> mailbox = new Queue<string>();
+        static Queue<(string Input, TaskCompletionSource<string> Result)> mailbox = new();
 
-        static async Task Enqueue(string m) {
+        static CancellationTokenSource cts = new CancellationTokenSource();
+
+        static async Task<string> Enqueue(string m) {
             await boxLock.WaitAsync();
             if(mailbox.Count == 0)
                 hasMessages.Release();
-            mailbox.Enqueue(m);
+            var r = new TaskCompletionSource<string>();
+            mailbox.Enqueue((m,r));
             boxLock.Release();
+            return await r.Task;
         }
 
         static async Task Process() {
-            while(true) {
+            while(!cts.Token.IsCancellationRequested) {
                 await hasMessages.WaitAsync();
                 await boxLock.WaitAsync();
-                Queue<string> m = new Queue<string>();
+                var m = new Queue<(string Input, TaskCompletionSource<string> Result)>();
                 while(mailbox.Count > 0)
                     m.Enqueue(mailbox.Dequeue());
                 boxLock.Release();
-                while(m.Count > 0)
-                    Console.WriteLine(m.Dequeue());
+                while(m.Count > 0) 
+                {
+                    var item = m.Dequeue();
+
+                    // Выполняем полезные вычисления
+                    var result = item.Input.ToLower();
+
+                    item.Result.SetResult(result);
+                }
             }
         }
 
         static async Task Main(string[] args)
         {
-            _ = Task.Run(async () => {
+            var task0 = Task.Run(async () => {
                 for(var i = 0;i<100;i++)
-                    await Enqueue($"T0: {i}");
+                {
+                    var s = await Enqueue($"T0: {i}");
+                    Console.WriteLine(s);
+                }
             });
-            _ = Task.Run(async () => {
+            var task1 = Task.Run(async () => {
                 for(var i = 0;i<100;i++)
-                    await Enqueue($"T1: {i}");
+                {
+                    var s = await Enqueue($"T1: {i}");
+                    Console.WriteLine(s);
+                }
             });
-            await Task.Run(Process);
+
+            var processTask = Task.Run(Process);
+
+            // Ждём окончания двух задач, генерирующих данные
+            await Task.WhenAll(task0, task1);
+
+            // Завершаем цикл обработки
+            cts.Cancel();
+            await processTask;
         }
     }
 }
