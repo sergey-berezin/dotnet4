@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Particles</title>
+    </head>
+    <body>
+        <canvas id="canvas" width="500" height="500"></canvas>
+        <script type="text/javascript">
+            let canvas = document.getElementById("canvas")
+            let width = canvas.width
+            let height = canvas.height
+            
+            let deltas = []
+            let lastFrame = null
+    
+            let x = []
+            let y = []
+            let vx = []
+            let vy = []
+            const N = 50
+    
+            for(let i = 0;i<N;i++) {
+                x[i] = Math.random()
+                y[i] = Math.random()
+                vx[i] = Math.random() * 0.1
+                vy[i] = Math.random() * 0.1
+            }
+    
+            function animate(delta) {
+                for(let i = 0;i<N;i++) {
+                    x[i] += vx[i] * delta
+                    if(x[i] > 1) {
+                        x[i] = 2 - x[i]
+                        vx[i] = -vx[i]
+                    } else if(x[i] < 0) {
+                        x[i] = -x[i]
+                        vx[i] = -vx[i]
+                    }
+    
+                    y[i] += vy[i] * delta
+                    if(y[i] > 1) {
+                        y[i] = 2 - y[i]
+                        vy[i] = -vy[i]
+                    } else if(y[i] < 0) {
+                        y[i] = -y[i]
+                        vy[i] = -vy[i]
+                    }
+                }
+            }
+    
+            function draw() {
+                let ctx = canvas.getContext('2d')
+                ctx.clearRect(0,0,width,height)
+                ctx.fillStyle = "rgb(0,0,255)"
+                for(let i = 0;i<N;i++)
+                {
+                    ctx.beginPath()
+                    ctx.ellipse(width * x[i] - 5, width * y[i] - 5, 5, 5, 0, 0, 2 * Math.PI)
+                    ctx.closePath()
+                    ctx.fill()
+                }
+            }
+
+            function onNextFrame() {
+                let currTime = Date.now()
+                if(lastFrame) {
+                    deltas.push((currTime - lastFrame) / 1000)
+                    if(deltas.length > 10) {
+                        deltas.shift(1)
+                    }
+                }
+                lastFrame = currTime
+                if(deltas.length > 0)
+                {
+                    const delta = deltas.reduce((a,b) => a + b, 0) / deltas.length
+                    console.log(delta)
+                    animate(delta)
+                    draw()
+
+                }
+                requestAnimationFrame(onNextFrame)
+            }
+
+            requestAnimationFrame(onNextFrame)
+
+        </script>    
+    </body>
+</html>

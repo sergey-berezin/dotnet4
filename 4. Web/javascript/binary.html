@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Binary converter</title>
+
+        <style type="text/css">
+            .binary {
+                display:inline-block;
+                width: 20px;
+                height: 10px;
+                margin: 4px;
+                background-color: blue;
+            }
+            .one {
+                background-color: greenyellow;
+            }
+        </style>
+    </head>
+
+    <body>
+        <input id="number" type="text">
+        <div>
+            <div class="binary" id="0"></div>
+            <div class="binary" id="1"></div>
+            <div class="binary" id="2"></div>
+            <div class="binary" id="3"></div>
+            <div class="binary" id="4"></div>
+            <div class="binary" id="5"></div>
+            <div class="binary" id="6"></div>
+            <div class="binary" id="7"></div>
+        </div>
+    </body>
+
+    <script type="text/javascript">
+        let numberBox = document.getElementById("number")
+        numberBox.oninput = () => {
+            let n = numberBox.value
+            for(let i = 0;i<8;i++) {
+                let bitSpan = document.getElementById(i.toString())
+                if(n & (1<<i))
+                    bitSpan.classList.add("one")
+                else
+                    bitSpan.classList.remove("one")
+            }
+        }
+    </script>
+</html>
