@@ -8,5 +8,5 @@
 * [Пример](https://github.com/sergey-berezin/dotnet4/tree/master/nuget) создания пакета NuGet.
 * [Документация](https://learn.microsoft.com/en-us/nuget/create-packages/creating-a-package-dotnet-cli) по создания пакетов NuGet в Visual Studio Code. 
 
-Приложение должно выводить на экран номер поколения и метрики наилучшего экземпляра в этом поколении до нажатия пользователем клавиши, Ctrl + C или экранной кнопки, а затем выводит на экран найденное решение. 
+Приложение должно выводить на экран номер поколения и метрики наилучшего экземпляра в этом поколении до сигнала пользователя (нажатия любой клавиши или Ctrl + C или экранной кнопки), а затем выводить на экран найденное решение. 
 * [Пример](https://learn.microsoft.com/en-us/dotnet/api/system.console.cancelkeypress?view=net-8.0s) перехвата Ctrl+C в консольном приложении C#.
