@@ -31,5 +31,5 @@
 ![Конфликты версий](media/packages.jpg)
 
 Ссылки:
-[Семантические версии](https://semver.org/)
-[CDC: Consumer Driven Contracts](https://martinfowler.com/articles/consumerDrivenContracts.html)
+* [Семантические версии](https://semver.org/)
+* [CDC: Consumer Driven Contracts](https://martinfowler.com/articles/consumerDrivenContracts.html)
