@@ -1,7 +1,7 @@
 # Распределение по вариантам
 
-| Группа | ФИ | Вариант |
-| - | - | - | 
+| Группа | ФИ | Вариант | Repo 
+| - | - | - | -
 | 401 | Епанчинцев Владимир | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/401_epanchinczev 
 | 401 | Касумов Руслан      | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/401_kasumov   
 | 401 | Кислицын Матвей     | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/401_kisliczyn 
