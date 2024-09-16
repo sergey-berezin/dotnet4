@@ -17,3 +17,13 @@ Asynchronous events are those occurring independently of the main program flow. 
         
 * В каждом процессе есть как  минимум один поток. Но может быть и несколько.
   * Пример: один поток обновляет пользовательский интерфейс, второй производит расчет новых данных.
+
+## Базовые средства конкурентного программирования в .NET
+
+Запуск потока. Ожидание остановки потока. Необходимость синхронизации доступа к разделяемому между потоками ресурсами. [Пример](https://github.com/sergey-berezin/dotnet4/tree/master/1.%20Concurrency/ThreadIntro).
+
+Deadlock. Изменение алгоритма для устранения deadlock. [Обедающие философы](https://github.com/sergey-berezin/dotnet4/tree/master/1.%20Concurrency/dining).
+
+Взаимодействие двух потоков при помощи очереди. Потокобезопасные классы. Почему лучше ожидать синхронизации, чем "крутить цикл"? [Пример](https://github.com/sergey-berezin/dotnet4/tree/master/1.%20Concurrency/ConsumerProducer).
+
+Параллельные вычисления на примере умножения матриц. Необходимо ожидать завершения вычислений. Накладные расходы на параллельность, в том числе на запуск потоков. Сколько потоков запускать? Пулы потоков. [Пример](https://github.com/sergey-berezin/dotnet4/tree/master/1.%20Concurrency/MatrixMul).
