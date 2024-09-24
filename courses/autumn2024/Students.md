@@ -3,7 +3,7 @@
 | Группа | ФИ | Вариант | Repo | 1 задание | 2 задание
 | - | - | - | - | - | - 
 | 401 | Епанчинцев Владимир | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/401_epanchinczev 
-| 401 | Касумов Руслан      | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/401_kasumov | PR 24.09
+| 401 | Касумов Руслан      | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/401_kasumov | Сдано 24.09
 | 401 | Кислицын Матвей     | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/401_kisliczyn 
 | 401 | Корчагина Анна      | [2](Problems.md#вариант-2-расписание-турнира) | https://github.com/sergey-berezin/401_korchagina
 | 401 | Краснова Светлана   | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/401_krasnova | Сдано 17.09
