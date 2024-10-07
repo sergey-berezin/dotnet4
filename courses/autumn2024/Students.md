@@ -19,7 +19,7 @@
 | 402 | Го Цинюань          | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/402_czinyuan
 | 402 | Канта Даниэль       | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/402_kanta | ![Сдано 24.09](media/ok.png)
 | 402 | Киямова Камилла     | [2](Problems.md#вариант-2-расписание-турнира) | https://github.com/sergey-berezin/402_kiyamova
-| 402 | Мозохин Николай     | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/402_mozoxin | PR 27.09
+| 402 | Мозохин Николай     | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/402_mozoxin | ![Сдано 24.09](media/ok.png)
 | 402 | Сапрончев Андрей    | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/402_sapronchev | ![Сдано 17.09](media/ok.png) | PR 24.09
 | 402 | Шаргаровский Михаил | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/402_shargarovskij | ![Сдано 24.09](media/ok.png) 
 | 406 | Васильченко Дмитрий | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/406_vasilchenko | ![Сдано 13.09](media/ok.png)
@@ -37,5 +37,5 @@
 | 441/2 | Попова Полина     | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/441_2_popova | PR 26.09
 | 441/2 | Прокофьев Николай | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/441_2_prokofev | PR 27.09
 | 441/2 | Супрун Илья | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/441_2_suprun
-| 441/2 | Уразметова Маргарита | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/441_2_urazmetova | PR 29.09
+| 441/2 | Уразметова Маргарита | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/441_2_urazmetova | ![Сдано 29.09](media/ok.png)
 | 441/2 | Шевченко Вячеслав | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/441_2_shevchenko | PR 29.09
