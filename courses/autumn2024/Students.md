@@ -35,7 +35,7 @@
 | 441/2 | Панкина Алина     | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/441_2_pankina | ![Сдано 23.09](media/ok.png)
 | 441/2 | Плотников Алексей | [2](Problems.md#вариант-2-расписание-турнира) | https://github.com/sergey-berezin/441_2_plotnikov | ![Сдано 29.09](media/ok.png)
 | 441/2 | Попова Полина     | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/441_2_popova | PR 26.09
-| 441/2 | Прокофьев Николай | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/441_2_prokofev | PR 27.09
+| 441/2 | Прокофьев Николай | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/441_2_prokofev | ![Сдано 27.09](media/ok.png)
 | 441/2 | Супрун Илья | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/441_2_suprun | ![Сдано](media/ok.png)
 | 441/2 | Уразметова Маргарита | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/441_2_urazmetova | ![Сдано 29.09](media/ok.png)
 | 441/2 | Шевченко Вячеслав | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/441_2_shevchenko | ![Сдано 29.09](media/ok.png)
