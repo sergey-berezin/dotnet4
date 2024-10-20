@@ -25,7 +25,7 @@
 | 406 | Васильченко Дмитрий | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/406_vasilchenko | ![Сдано 13.09](media/ok.png)
 | 406 | Ложкин Дмитрий      | [2](Problems.md#вариант-2-расписание-турнира) | https://github.com/sergey-berezin/406_lozhkin | ![Сдано 27.09](media/ok.png)
 | 409 | Романова Юлия       | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/409_romanova | ![Сдано 19.09](media/ok.png)
-| 409 | Доронин Александр   | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/409_doronin | ![Сдано 13.09](media/ok.png) | PR 30.09
+| 409 | Доронин Александр   | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/409_doronin | ![Сдано 13.09](media/ok.png) | ![Сдано 17.09](media/ok.png)
 | 409 | Огородников Даниил  | [2](Problems.md#вариант-2-расписание-турнира) | https://github.com/sergey-berezin/409_ogorodnikov | ![Сдано 23.09](media/ok.png)
 | 409 | Якушев Марк         | [1](Problems.md#вариант-1-задача-коммивояжера) | https://github.com/sergey-berezin/409_yakushev | PR 29.09
 | 441/2 | Го Хаодзе         | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/441_2_xaodze | ![Сдано 27.09](media/ok.png)
