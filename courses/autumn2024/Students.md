@@ -17,7 +17,7 @@
 | 402 | Бородинов Владислав | [2](Problems.md#вариант-2-расписание-турнира) | https://github.com/sergey-berezin/402_borodinov       | Сдано 30.10 | ![Сдано 22.10](media/ok.png) | Вариант a
 | 402 | Власов Алексей      | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/402_vlasov
 | 402 | Го Цинюань          | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/402_czinyuan
-| 402 | Канта Даниэль       | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/402_kanta           | ![Сдано 24.09](media/ok.png) | PR 22.10
+| 402 | Канта Даниэль       | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/402_kanta           | ![Сдано 24.09](media/ok.png) | ![Сдано 23.10](media/ok.png) | Вариант б
 | 402 | Киямова Камилла     | [2](Problems.md#вариант-2-расписание-турнира) | https://github.com/sergey-berezin/402_kiyamova
 | 402 | Мозохин Николай     | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/402_mozoxin         | ![Сдано 24.09](media/ok.png)
 | 402 | Сапрончев Андрей    | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/402_sapronchev      | ![Сдано 17.09](media/ok.png) | PR 24.09
