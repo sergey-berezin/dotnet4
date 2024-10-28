@@ -38,18 +38,13 @@ namespace efsample
         {
             using(var db = new LibraryContext()) 
             {
-                var a = db.Authors.Where(a => a.FirstName.StartsWith("F")).FirstOrDefault();
-                var b = new Book() { Title = "Dune", Pages = 450 };
-                b.Authors = new List<Author>();
-                b.Authors.Add(a);
-                a.Books = new List<Book>();
-                a.Books.Add(b);
-                db.Add(b);
-
-                db.SaveChanges();
-
-                // db.Add(new Author { FirstName = "John", LastName = "Smith"});
+                // var a = new Author { FirstName = "Frank", LastName = "Herbert" };
+                // var b = new Book { Title = "Dune", Pages = 450 };
+                // b.Authors = new List<Author>() { a };
+                // a.Books = new List<Book>() { b };
+                // db.Add(b);
                 // db.SaveChanges();
+
 
                 foreach(var a2 in db.Authors/*.Include(a => a.Books)*/)
                 {
