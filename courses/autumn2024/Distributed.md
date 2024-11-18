@@ -15,3 +15,46 @@
 
 * Человеко-читаемый формат: `/swagger`
 * В формате [OpenApi](https://spec.openapis.org/oas/latest.html): `/swagger/v1/swagger.json`
+
+### Протокол HTTP
+
+* Методы HTTP
+    * GET
+    * HEAD
+    * PUT
+    * PATCH
+    * POST
+    * DELETE
+    * OPTIONS
+    * TRACE
+    * CONNECT
+* [Коты состояния](https://http.cat/)
+    * 1xx - Информационный
+    * 2xx - Успех
+    * 3xx - Перенаправление
+    * 4xx - Ошибка клиента. Например, неправильные параметры запроса
+    * 5xx - Ошибка сервера
+* [REST](https://en.wikipedia.org/wiki/REST): REpresentational State Transfer
+  * Ресурсы и URI
+  * Архитектурные ограничения:
+    * Client/Server
+    * Stateless
+    * Cache
+    * Uniform inteface
+      * URI
+      * Resource representation
+      * Self-descriptive messages
+      * Hyperlinks
+    * Code on demand
+  * [CRUD](): Created, Read, Update and Delete
+    * `POST /books` добавляет книгу. Возвращает в том числе `id` книги
+    * `GET /books` возвращает список книг
+    * `GET /books/id` возвращает расширенную информацию о книге
+    * `PUT /books/id` изменяет информацю о книге
+    * `DELETE /books/id` удаляет информацию о книге
+  
+## Контроллеры WebApi
+
+Действия над одним ресурсом группируются в классе-контроллере.
+* Потомок класса `ControllerBase`
+* Атрибуты `[Route]` и `[ApiController]`
