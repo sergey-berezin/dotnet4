@@ -22,7 +22,7 @@
 | 402 | Мозохин Николай     | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/402_mozoxin         | ![Сдано 24.09](media/ok.png) | ![Сдано 05.11](media/ok.png) | Вариант а
 | 402 | Сапрончев Андрей    | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/402_sapronchev      | ![Сдано 17.09](media/ok.png) | ![Сдано 30.09](media/ok.png) | ![Сдано 05.11](media/ok.png) | Вариант б
 | 402 | Шаргаровский Михаил | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/402_shargarovskij   | ![Сдано 24.09](media/ok.png) | PR 27.10 | Вариант а
-| 406 | Васильченко Дмитрий | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/406_vasilchenko     | ![Сдано 13.09](media/ok.png) | ![Сдано 14.10](media/ok.png) | PR 14.11
+| 406 | Васильченко Дмитрий | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/406_vasilchenko     | ![Сдано 13.09](media/ok.png) | ![Сдано 14.10](media/ok.png) | ![Сдано 15.11](media/ok.png) | Вариант б
 | 406 | Ложкин Дмитрий      | [2](Problems.md#вариант-2-расписание-турнира) | https://github.com/sergey-berezin/406_lozhkin         | ![Сдано 27.09](media/ok.png) | ![Сдано 08.11](media/ok.png) | Вариант а
 | 409 | Романова Юлия       | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/409_romanova        | ![Сдано 19.09](media/ok.png) | PR 22.10 | Вариант в
 | 409 | Доронин Александр   | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/409_doronin         | ![Сдано 13.09](media/ok.png) | ![Сдано 17.09](media/ok.png) | Вариант а
@@ -36,6 +36,6 @@
 | 441/2 | Плотников Алексей | [2](Problems.md#вариант-2-расписание-турнира) | https://github.com/sergey-berezin/441_2_plotnikov     | ![Сдано 29.09](media/ok.png) | PR 27.10 | Вариант а
 | 441/2 | Попова Полина     | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/441_2_popova        | ![Сдано 26.09](media/ok.png) | ![Сдано 21.10](media/ok.png) | ![Сдано 11.11](media/ok.png) | Вариант а
 | 441/2 | Прокофьев Николай | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/441_2_prokofev      | ![Сдано 27.09](media/ok.png) | ![Сдано 30.10](media/ok.png) | Вариант в
-| 441/2 | Супрун Илья       | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/441_2_suprun        | ![Сдано](media/ok.png) | PR 27.10 | Вариант a
+| 441/2 | Супрун Илья       | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/441_2_suprun        | ![Сдано](media/ok.png) |![Сдано 18.11](media/ok.png) | Вариант a
 | 441/2 | Уразметова Маргарита | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/441_2_urazmetova | ![Сдано 29.09](media/ok.png) | PR 27.10 | Вариант в
 | 441/2 | Шевченко Вячеслав | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/441_2_shevchenko    | ![Сдано 29.09](media/ok.png) | ![Сдано 11.11](media/ok.png) | Вариант а
