@@ -24,7 +24,7 @@
 | 402 | Шаргаровский Михаил | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/402_shargarovskij   | ![Сдано 24.09](media/ok.png) | PR 27.10 | Вариант а
 | 406 | Васильченко Дмитрий | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/406_vasilchenko     | ![Сдано 13.09](media/ok.png) | ![Сдано 14.10](media/ok.png) | ![Сдано 15.11](media/ok.png) | Вариант б
 | 406 | Ложкин Дмитрий      | [2](Problems.md#вариант-2-расписание-турнира) | https://github.com/sergey-berezin/406_lozhkin         | ![Сдано 27.09](media/ok.png) | ![Сдано 08.11](media/ok.png) | Вариант а
-| 409 | Романова Юлия       | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/409_romanova        | ![Сдано 19.09](media/ok.png) | PR 22.10 | Вариант в
+| 409 | Романова Юлия       | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/409_romanova        | ![Сдано 19.09](media/ok.png) | ![Сдано 22.10](media/ok.png) | Вариант в
 | 409 | Доронин Александр   | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/409_doronin         | ![Сдано 13.09](media/ok.png) | ![Сдано 17.09](media/ok.png) | Вариант а
 | 409 | Огородников Даниил  | [2](Problems.md#вариант-2-расписание-турнира) | https://github.com/sergey-berezin/409_ogorodnikov     | ![Сдано 23.09](media/ok.png) | ![Сдано 19.11](media/ok.png) | Вариант в
 | 409 | Якушев Марк         | [1](Problems.md#вариант-1-задача-коммивояжера) | https://github.com/sergey-berezin/409_yakushev       | ![Сдано 03.10](media/ok.png) | PR 27.10 | Вариант a
