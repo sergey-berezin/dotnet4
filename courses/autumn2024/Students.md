@@ -3,9 +3,9 @@
 | Группа | ФИ | Вариант | Repo | 1 задание | 2 задание | 3 задание | 4 задание
 | - | - | - | - | - | - | - | -
 | 401 | Епанчинцев Владимир | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/401_epanchinczev 
-| 401 | Касумов Руслан      | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/401_kasumov         | ![Сдано 24.09](media/ok.png) | ![Сдано 29.10](media/ok.png) | PR 24.11 - Вариант а
+| 401 | Касумов Руслан      | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/401_kasumov         | ![Сдано 24.09](media/ok.png) | ![Сдано 29.10](media/ok.png) | ![Сдано 10.12](media/ok.png) | Вариант б
 | 401 | Кислицын Матвей     | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/401_kisliczyn 
-| 401 | Корчагина Анна      | [2](Problems.md#вариант-2-расписание-турнира) | https://github.com/sergey-berezin/401_korchagina      | ![Сдано 25.09](media/ok.png) | ![Сдано 29.10](media/ok.png) | Вариант в
+| 401 | Корчагина Анна      | [2](Problems.md#вариант-2-расписание-турнира) | https://github.com/sergey-berezin/401_korchagina      | ![Сдано 25.09](media/ok.png) | ![Сдано 29.10](media/ok.png) | ![Сдано 10.12](media/ok.png) | Вариант б
 | 401 | Краснова Светлана   | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/401_krasnova        | ![Сдано 17.09](media/ok.png) | ![Сдано 22.10](media/ok.png) | ![Сдано 03.12](media/ok.png) | Вариант a
 | 401 | Мартьянов Артём     | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/401_martyanov       | ![Сдано 26.09](media/ok.png) | ![Сдано 24.10](media/ok.png) | PR 19.11 - а
 | 401 | Матвеева Софья      | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/401_matveeva        | ![Сдано 27.09](media/ok.png) | ![Сдано 08.11](media/ok.png) | ![Сдано 03.12](media/ok.png) | Вариант б
@@ -14,7 +14,7 @@
 | 401 | Певцов Артём        | [2](Problems.md#вариант-2-расписание-турнира) | https://github.com/sergey-berezin/401_pevczov         | ![Сдано 24.09](media/ok.png) | ![Сдано 29.10](media/ok.png) | ![Сдано 26.11](media/ok.png) | Вариант б
 | 401 | Токарь Дмитрий      | [2](Problems.md#вариант-2-расписание-турнира) | https://github.com/sergey-berezin/401_tokar           | ![Сдано 29.09](media/ok.png) | ![Сдано 29.10](media/ok.png) | ![Сдано 2.12](media/ok.png) | Вариант б
 | 402 | Артёмов Арсений     | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/402_artyomov        | ![Сдано 29.09](media/ok.png)
-| 402 | Бородинов Владислав | [2](Problems.md#вариант-2-расписание-турнира) | https://github.com/sergey-berezin/402_borodinov       | Сдано 30.10 | ![Сдано 22.10](media/ok.png) | ![Сдано 11.11](media/ok.png) | Вариант а
+| 402 | Бородинов Владислав | [2](Problems.md#вариант-2-расписание-турнира) | https://github.com/sergey-berezin/402_borodinov       | Сдано 30.10 | ![Сдано 22.10](media/ok.png) | ![Сдано 11.11](media/ok.png) | ![Сдано 10.12](media/ok.png)
 | 402 | Власов Алексей      | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/402_vlasov
 | 402 | Го Цинюань          | [3](Problems.md#вариант-3-двумерная-упаковка) | https://github.com/sergey-berezin/402_czinyuan
 | 402 | Канта Даниэль       | [1](Problems.md#вариант-1-задача-коммивояжера)| https://github.com/sergey-berezin/402_kanta           | ![Сдано 24.09](media/ok.png) | ![Сдано 23.10](media/ok.png) | ![Сдано 26.11](media/ok.png) | Вариант а
