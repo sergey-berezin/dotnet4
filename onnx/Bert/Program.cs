@@ -1,9 +1,8 @@
-﻿using BERTTokenizers;
-using Microsoft.ML.Data;
+﻿// Model link: https://huggingface.co/jaustin23/bert-large-uncased-whole-word-masking-finetuned-squad-onnx/blob/main/onnx/model.onnx
+
+using BERTTokenizers;
 using Microsoft.ML.OnnxRuntime;
 using Microsoft.ML.OnnxRuntime.Tensors;
-using System;
-
 
 namespace MyApp // Note: actual namespace depends on the project name.
 {
@@ -122,11 +121,14 @@ enough  to  go  on  with.
 
             // Create input data for session.
             var input = new List<NamedOnnxValue> { NamedOnnxValue.CreateFromTensor("input_ids", input_ids), 
-                                                    NamedOnnxValue.CreateFromTensor("input_mask", attention_mask), 
-                                                    NamedOnnxValue.CreateFromTensor("segment_ids", token_type_ids) };
+                                                   NamedOnnxValue.CreateFromTensor("attention_mask", attention_mask), 
+                                                   NamedOnnxValue.CreateFromTensor("token_type_ids", token_type_ids) };
 
             // Create an InferenceSession from the Model Path.
             var session = new InferenceSession(modelPath);
+
+            foreach(var p in session.InputMetadata.Keys)
+                Console.WriteLine($"{p} {session.InputMetadata[p]}");
 
             // Run session and send the input data in to get inference output. 
             var output = session.Run(input);

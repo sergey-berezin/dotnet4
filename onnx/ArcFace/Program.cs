@@ -1,5 +1,5 @@
 ﻿
-// Download ONNX model from https://github.com/onnx/models/blob/main/vision/body_analysis/arcface/model/arcfaceresnet100-8.onnx
+// Download ONNX model from https://github.com/onnx/models/blob/main/validated/vision/body_analysis/arcface/model/arcfaceresnet100-8.onnx
 // to project directory before run
 
 using Microsoft.ML.OnnxRuntime;
